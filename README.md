@@ -4,8 +4,11 @@ We want to present you our music project "Party Mixer", in which you can create 
 
 ## For creating "Party Mixer" were used :
 • HTML;
+
 • CSS;
+
 • JavaScript;
+
 • Markdown;
 
 # MIT License
