@@ -1,6 +1,6 @@
 # Party Mixer
 
-# We want to present you our music project "Party Mixer", in which you can create your own unique track that will conquer the whole world from the music tracks created by us. Using this app is very simple and fast. First, you need to get acquainted with the music tracks provided by us, then select a tune and drag it to the music playback area with a light mouse movement, so you can mix different rhythms and melodies when creating a mind-blowing track. Try our new app it will bring you a lot of fun and fun.
+We want to present you our music project "Party Mixer", in which you can create your own unique track that will conquer the whole world from the music tracks created by us. Using this app is very simple and fast. First, you need to get acquainted with the music tracks provided by us, then select a tune and drag it to the music playback area with a light mouse movement, so you can mix different rhythms and melodies when creating a mind-blowing track. Try our new app it will bring you a lot of fun and fun.
 
 ## For creating "Party Mixer" were used :
 • HTML;
