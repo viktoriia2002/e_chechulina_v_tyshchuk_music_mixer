@@ -3,8 +3,9 @@ body {
   margin: 0 auto;
   padding: 0;
   background-color:#343B48;
-
 }
+
+
 
 .hidden {
   display: none;
@@ -14,4 +15,73 @@ body {
   background: url(../images/background.svg);
   width: 881px;
   height: 486px;
+}
+
+.mainHeader {
+  text-align: center;
+  color: #cecece;
+}
+
+.musicPlace{
+  display: flex;
+  flex-direction: row;
+}
+
+.musicTracks{
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+  margin-left: 78px;
+}
+
+.firstRow-mt{
+  display: flex;
+  flex-direction: row;
+}
+
+.button1{
+  padding-right: 4px;
+}
+
+.secondRow-mt{
+  display: flex;
+  flex-direction: row;
+}
+
+.button3{
+  padding-right: 4px;
+}
+
+.buttons{
+  margin-left: 20px;
+  margin-top: 49px;
+}
+
+.musicPlayer, .play {
+  margin-top: 10px;
+}
+
+.soundTracks{
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+  margin-top: 49px;
+}
+
+.firstRow-st{
+  display: flex;
+  flex-direction: row;
+}
+
+.secondRow-st{
+  display: flex;
+  flex-direction: row;
+}
+
+.button6{
+  padding-left: 4px;
+}
+
+.button8{
+  padding-left: 4px;
 }
