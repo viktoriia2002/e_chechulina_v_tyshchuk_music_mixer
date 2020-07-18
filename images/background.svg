@@ -1,0 +1,119 @@
+<svg id="bckgrd_player" data-name="bckgrd player" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 881 486">
+  <defs>
+    <linearGradient id="linear-gradient" x1="40.67" y1="141.72" x2="40.67" y2="175.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b4b4b"/>
+      <stop offset="0.02" stop-color="#3c3c3f"/>
+      <stop offset="0.05" stop-color="#2b2a30"/>
+      <stop offset="0.07" stop-color="#25242b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="40.67" y1="101.43" x2="40.67" y2="134.8" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="40.9" y1="246.18" x2="40.9" y2="267.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.11" stop-color="#4b4b4b"/>
+      <stop offset="0.12" stop-color="#353535"/>
+      <stop offset="0.14" stop-color="#181818"/>
+      <stop offset="0.16" stop-color="#060606"/>
+      <stop offset="0.17"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="45.14" y1="430.87" x2="45.14" y2="484.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b4b4b"/>
+      <stop offset="0.02" stop-color="#313033"/>
+      <stop offset="0.04" stop-color="#1f1e23"/>
+      <stop offset="0.05" stop-color="#19181d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="839.08" y1="144.51" x2="839.08" y2="177.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="839.08" y1="104.22" x2="839.08" y2="137.58" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="839.31" y1="248.97" x2="839.31" y2="270.06" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="837.77" y1="430.4" x2="837.77" y2="483.8" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-9" x1="246.92" y1="435.64" x2="246.92" y2="478.69" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-10" x1="623.01" y1="436.04" x2="623.01" y2="479.09" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-11" x1="433.7" y1="457.57" x2="435.7" y2="457.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#4b4b4b"/>
+      <stop offset="0.24" stop-color="#707070"/>
+      <stop offset="0.32" stop-color="#999"/>
+      <stop offset="0.39" stop-color="#b6b6b6"/>
+      <stop offset="0.45" stop-color="#c8c8c8"/>
+      <stop offset="0.5" stop-color="#cecece"/>
+      <stop offset="0.82" stop-color="#4b4b4b"/>
+    </linearGradient>
+  </defs>
+  <rect id="bckgrd" width="881" height="486" fill="#212026"/>
+  <rect id="music_wave" data-name="music wave" x="73.5" width="734" height="96" fill="#0c090c"/>
+  <g id="left_side" data-name="left side">
+    <text transform="translate(26.45 74.19)" font-size="9" fill="#ccc" font-family="Avenir-Roman, Avenir">PITCH</text>
+    <text transform="translate(28.5 44.35)" font-size="9" fill="#ccc" font-family="Avenir-Roman, Avenir" letter-spacing="0.09em">BPM</text>
+    <g id="dash_stroke" data-name="dash stroke">
+      <rect x="14.34" y="52.65" width="50.65" height="36.52" rx="2.52" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-dasharray="1.98 1.98"/>
+    </g>
+    <rect id="stroke1" x="14.34" y="141.72" width="52.66" height="33.37" rx="4.44" stroke="#020002" stroke-miterlimit="10" fill="url(#linear-gradient)"/>
+    <rect id="stroke1-2" data-name="stroke1" x="14.34" y="101.43" width="52.66" height="33.37" rx="4.44" stroke="#020002" stroke-miterlimit="10" fill="url(#linear-gradient-2)"/>
+    <polyline id="arrow_right" data-name="arrow right" points="38.98 114.48 42.36 118.55 38.98 122.61" fill="none" stroke="#ccc" stroke-miterlimit="10"/>
+    <polyline id="arrow_left" data-name="arrow left" points="42.73 155 39.35 159.06 42.73 163.13" fill="none" stroke="#ccc" stroke-miterlimit="10"/>
+    <rect id="vol1" x="14.34" y="182.09" width="52.66" height="198.34" rx="3.87" fill="#13141d" stroke="#000" stroke-miterlimit="10"/>
+    <text transform="translate(29.5 215.91)" font-size="10" fill="#ccc" font-family="AvenirNext-DemiBold, Avenir Next" font-weight="300" letter-spacing="0.04em">V<tspan x="6.96" y="0" letter-spacing="0.05em">O</tspan><tspan x="16" y="0" letter-spacing="0.03em">L</tspan></text>
+    <rect x="39.24" y="266.7" width="2.84" height="97.24" rx="0.28" fill="#f19227"/>
+    <rect x="21.73" y="246.18" width="38.33" height="21.09" rx="1.33" fill="url(#linear-gradient-3)"/>
+    <rect id="cue" x="11.49" y="430.87" width="67.3" height="53.4" rx="4" stroke="#000" stroke-miterlimit="10" fill="url(#linear-gradient-4)"/>
+    <text transform="translate(33.05 461.7)" font-size="10" fill="#f19227" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.17em">CUE</text>
+  </g>
+  <g id="right_side" data-name="right side">
+    <text transform="translate(826.47 76.66)" font-size="9" fill="#ccc" font-family="Avenir-Roman, Avenir">PITCH</text>
+    <text transform="translate(828.92 47.14)" font-size="9" fill="#ccc" font-family="Avenir-Roman, Avenir" letter-spacing="0.09em">BPM</text>
+    <g id="dash_stroke-2" data-name="dash stroke">
+      <rect x="814.75" y="55.44" width="50.65" height="36.52" rx="2.52" fill="none" stroke="#ccc" stroke-miterlimit="10" stroke-dasharray="1.98 1.98"/>
+    </g>
+    <rect id="stroke1-3" data-name="stroke1" x="812.75" y="144.51" width="52.66" height="33.37" rx="4.44" stroke="#020002" stroke-miterlimit="10" fill="url(#linear-gradient-5)"/>
+    <rect id="stroke1-4" data-name="stroke1" x="812.75" y="104.22" width="52.66" height="33.37" rx="4.44" stroke="#020002" stroke-miterlimit="10" fill="url(#linear-gradient-6)"/>
+    <polyline id="arrow_right-2" data-name="arrow right" points="839.4 117.27 842.78 121.33 839.4 125.4" fill="none" stroke="#ccc" stroke-miterlimit="10"/>
+    <polyline id="arrow_left-2" data-name="arrow left" points="841.15 157.79 837.77 161.85 841.15 165.92" fill="none" stroke="#ccc" stroke-miterlimit="10"/>
+    <rect id="vol1-2" data-name="vol1" x="812.75" y="184.88" width="52.66" height="198.34" rx="3.87" fill="#13141d" stroke="#000" stroke-miterlimit="10"/>
+    <text transform="translate(827.91 218.7)" font-size="10" fill="#ccc" font-family="AvenirNext-DemiBold, Avenir Next" font-weight="300" letter-spacing="0.04em">V<tspan x="6.96" y="0" letter-spacing="0.05em">O</tspan><tspan x="16" y="0" letter-spacing="0.03em">L</tspan></text>
+    <rect x="837.66" y="269.49" width="2.84" height="97.24" rx="0.28" fill="#f19227"/>
+    <rect x="820.15" y="248.97" width="38.33" height="21.09" rx="1.33" fill="url(#linear-gradient-7)"/>
+    <rect id="cue-2" data-name="cue" x="804.12" y="430.4" width="67.3" height="53.4" rx="4" stroke="#000" stroke-miterlimit="10" fill="url(#linear-gradient-8)"/>
+  </g>
+  <text transform="translate(826.47 463.69)" font-size="10" fill="#f19227" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.17em">CUE</text>
+  <g id="sampler_button" data-name="sampler button">
+    <rect x="209.25" y="435.64" width="75.35" height="43.05" rx="2.67" stroke="#f19227" stroke-miterlimit="10" fill="url(#linear-gradient-9)"/>
+    <text transform="translate(221 457.17)" font-size="10" fill="#f19227" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">SAMPLER</text>
+    <line x1="221" y1="466.33" x2="270.81" y2="466.37" fill="none" stroke="#f19227" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <g id="sampler_button1" data-name="sampler button1">
+    <rect x="585.34" y="436.04" width="75.35" height="43.05" rx="2.67" stroke="#f19227" stroke-miterlimit="10" fill="url(#linear-gradient-10)"/>
+    <text transform="translate(597.09 457.57)" font-size="10" fill="#f19227" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">SAMPLER</text>
+    <line x1="597.09" y1="466.73" x2="646.9" y2="466.77" fill="none" stroke="#f19227" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <polygon id="triangle2" points="324.62 457.56 332.35 452.5 332.35 461.7 324.62 457.56" fill="#37363a"/>
+  <polygon id="triangle1" points="544.7 458.03 536.97 452.96 536.97 462.17 544.7 458.03" fill="#37363a"/>
+  <g id="voicer">
+    <line x1="363.63" y1="433.52" x2="363.82" y2="480.79" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="377.66" y1="439.19" x2="377.82" y2="476.89" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="392.11" y1="444.08" x2="392.22" y2="471.05" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="405.81" y1="448.37" x2="405.89" y2="466.46" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="420.29" y1="451.86" x2="420.34" y2="462.72" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="505.55" y1="433.53" x2="505.35" y2="480.8" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="491.52" y1="439.2" x2="491.36" y2="476.9" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="477.07" y1="444.09" x2="476.96" y2="471.06" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="463.36" y1="448.38" x2="463.29" y2="466.47" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <line x1="448.89" y1="451.87" x2="448.84" y2="462.73" fill="none" stroke="#505051" stroke-miterlimit="10" stroke-width="1.6"/>
+    <rect x="423.12" y="429.42" width="23.16" height="56.29" rx="2.2" fill="#19181d"/>
+    <line x1="434.7" y1="429.42" x2="434.7" y2="485.71" fill="none" stroke-miterlimit="10" stroke-width="2" stroke="url(#linear-gradient-11)"/>
+    <line x1="355.81" y1="457.17" x2="511.7" y2="457.57" fill="none" stroke="#010004" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+  <g id="off_button" data-name="off button">
+    <rect x="313.56" y="392.17" width="45.31" height="23.38" rx="1.98"/>
+    <text transform="translate(334.52 406.59)" font-size="9" fill="#c1c1c1" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">OFF</text>
+  </g>
+  <g id="off_button-2" data-name="off button">
+    <rect x="817.27" y="392.17" width="45.31" height="23.38" rx="1.98"/>
+    <text transform="translate(838.23 406.59)" font-size="9" fill="#c1c1c1" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">OFF</text>
+  </g>
+  <g id="dash_border" data-name="dash border">
+    <rect x="75.93" y="104.72" width="282.95" height="277.51" rx="3.26" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-dasharray="3 3"/>
+  </g>
+  <g id="dash_border1" data-name="dash border1">
+    <rect x="521.13" y="104.72" width="282.95" height="277.51" rx="3.36" fill="none" stroke="#cecece" stroke-miterlimit="10" stroke-dasharray="3 3"/>
+  </g>
+  <text transform="translate(17.6 33.72)" font-size="15" fill="#f49828" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">128.0</text>
+  <text transform="translate(817.36 35.79)" font-size="15" fill="#ddd" font-family="Avenir-Medium, Avenir" font-weight="500" letter-spacing="0.08em">128.0</text>
+</svg>
