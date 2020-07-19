@@ -4,33 +4,32 @@ body {
   padding: 0;
   background-color:#343B48;
 }
-
+h1 {
+  font-size: 20px;
+}
 
 
 .hidden {
   display: none;
 }
 .container {
-  margin-top: 100px;
+  margin-top: 10px;
   background: url(../images/background.svg);
   width: 881px;
   height: 486px;
 }
 
-.mainHeader {
-  text-align: center;
-  color: #cecece;
-}
 
 .musicPlace{
   display: flex;
   flex-direction: row;
+  margin-top: 5px;
 }
 
-.musicTracks{
+.imagesContainer{
   display: flex;
-  flex-direction: column;
-  margin-top: 49px;
+  flex-direction: row;
+  margin-top: 110px;
   margin-left: 78px;
 }
 
@@ -39,33 +38,50 @@ body {
   flex-direction: row;
 }
 
-.button1{
+#button1{
   padding-right: 4px;
 }
-
+.buttons {
+  margin-left: 22px;
+  margin-top: 10px;
+}
 .secondRow-mt{
   display: flex;
   flex-direction: row;
+  margin-top: 2px;
 }
 
-.button3{
+#button3{
   padding-right: 4px;
 }
 
-.buttons{
-  margin-left: 20px;
-  margin-top: 49px;
+
+.dropZones {
+  display: flex;
+  flex-direction: row;
+margin-left: 20px;
+justify-content: space-evenly;
+margin-top: 10px;
+}
+.dropZone {
+
+  background-color: #343B48;
+  border-color: #cecece;
+  border-style: dashed;
+  border-width: 1px;
+  width: 138px;
+  height: 134px;
 }
 
-.musicPlayer, .play {
-  margin-top: 10px;
+.zone1, .zone2, .zone3, .zone4 {
+  margin-left: 20px;
 }
 
 .soundTracks{
   display: flex;
   flex-direction: column;
-  margin-left: 22px;
-  margin-top: 49px;
+  margin-left: 20px;
+  margin-top: 0px;
 }
 
 .firstRow-st{
@@ -76,12 +92,13 @@ body {
 .secondRow-st{
   display: flex;
   flex-direction: row;
+  margin-top: 2px;
 }
 
-.button6{
+#button6{
   padding-left: 4px;
 }
 
-.button8{
+#button8{
   padding-left: 4px;
 }

@@ -8,38 +8,50 @@
   </head>
   <body>
 <div class="container">
-  <header class="mainHeader">
-    <h1>Party Mixer</h1>
-  </header>
+
 <div class="musicPlace">
-      <div class="musicTracks">
-            <div class="firstRow-mt">
-                    <section class="button button1">
-                      <h2 class="hidden">MS</h2>
-                      <img src="images/orange.svg" alt="Music">
+      <div class="audioTracks">
 
+        <audio data-sound="button1"  src="audio/button1.ogg"></audio>
 
-                    </section>
-                    <section class="button button2">
-                      <h2 class="hidden">MS</h2>
-                      <img src="images/green.svg" alt="Music">
+        <audio data-sound="button2" src="audio/button2.ogg"></audio>
 
-                    </section>
+        <audio data-sound="button3" src="audio/button3.ogg"></audio>
 
-            </div>
-            <div class="secondRow-mt">
-                  <section class="button button3">
-                    <h2 class="hidden">MS</h2>
-                    <img src="images/pink.svg" alt="Music">
-                  </section>
-                  <section class="button button4">
-                    <h2 class="hidden">MS</h2>
-                    <img src="images/lightBlue.svg" alt="Music">
-                  </section>
-            </div>
+        <audio data-sound="button4" src="audio/button4.ogg"></audio>
+
+        <audio data-sound="button5" src="audio/button5.ogg"></audio>
+
+        <audio data-sound="button6" src="audio/button6.ogg"></audio>
+
+        <audio data-sound="button7" src="audio/button7.ogg"></audio>
+
+        <audio data-sound="button8" src="audio/button8.ogg"></audio>
+
       </div>
 
-  <div class="buttons">
+<div class="imagesContainer">
+<div class="musicTracks">
+
+            <div class="firstRow-mt">
+
+                      <img src="images/orange.svg" alt="button1" class="box" id="button1"   draggable="true">
+
+                      <img src="images/green.svg" alt="button2" class="box" id="button2" draggable="true">
+
+            </div>
+
+            <div class="secondRow-mt">
+
+                    <img src="images/pink.svg" alt="button3" class="box" id="button3" draggable="true">
+
+
+                    <img src="images/lightBlue.svg" alt="button4" class="box" id="button4" draggable="true">
+
+            </div>
+          </div>
+
+          <div class="buttons">
 
         <section class="reset">
           <h2 class="hidden">Reset</h2>
@@ -48,7 +60,7 @@
 
         <section class="musicPlayer">
           <h2 class="hidden">Music Player</h2>
-          <img src="images/music_player.svg" alt="Music Player">
+          <img src="images/music_player.svg" alt="Music Player" class="playback">
         </section>
 
         <section class="play">
@@ -58,44 +70,64 @@
 
         <section class="pause">
           <h2 class="hidden">Pause</h2>
-          <img src="images/pause.svg" alt="Pause">
+          <img id="pause1" src="images/pause.svg" alt="Pause">
         </section>
-
-  </div>
-
+</div>
   <div class="soundTracks">
 
         <div class="firstRow-st">
-              <section class="button button5">
-                <h2 class="hidden">MS</h2>
-                <img src="images/red.svg" alt="Sound">
 
-              </section>
-              <section class="button button6">
-                <h2 class="hidden">MS</h2>
-              <img src="images/yellow.svg" alt="Sound">
-              </section>
+                <img src="images/red.svg" alt="button5" class="box" id="button5" draggable="true">
+
+              <img src="images/yellow.svg" alt="button6" class="box" id="button6" draggable="true">
+
         </div>
 
         <div class="secondRow-st">
 
-              <section class="button button7">
-                <h2 class="hidden">MS</h2>
-                <img src="images/purple.svg" alt="Sound">
-              </section>
+                <img src="images/purple.svg" alt="button7" class="box" id="button7" draggable="true">
 
-              <section class="button button8">
-                <h2 class="hidden">MS</h2>
-                <img src="images/blue.svg" alt="Sound">
-              </section>
+                <img src="images/blue.svg" alt="button8" class="box" id="button8" draggable="true">
+
         </div>
+
+  </div>
+  </div>
+
+
+
+  </div>
+
+
 
     </div>
 
-</div>
+
+
+<div class="dropZones">
+
+      <section class="dropZone zone1">
+        <h2 class="hidden">Reset</h2>
+
+      </section>
+
+      <section class="dropZone zone2">
+        <h2 class="hidden">Music Player</h2>
+
+      </section>
+
+      <section class="dropZone zone3">
+        <h2 class="hidden">Play</h2>
+
+      </section>
+
+      <section class="dropZone zone4">
+        <h2 class="hidden">Pause</h2>
+
+      </section>
 </div>
 
-<script src="js/main.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
