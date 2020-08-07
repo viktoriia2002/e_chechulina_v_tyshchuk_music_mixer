@@ -24,46 +24,36 @@ h1 {
   display: flex;
   flex-direction: row;
   margin-top: 5px;
+  margin-left: 57px;
+}
+
+.buttons{
+  margin: 20px;
 }
 
 .imagesContainer{
-  display: flex;
-  flex-direction: row;
-  margin-top: 110px;
-  margin-left: 78px;
+  display: grid;
+  grid-template-rows: 1fr  1fr 1fr 1fr ;
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 102px;
+  margin-left: 100px;
+  
 }
 
-.firstRow-mt{
-  display: flex;
-  flex-direction: row;
-}
 
-#img1{
-  padding-right: 4px;
-}
-.buttons {
-  margin-left: 22px;
-  margin-top: 10px;
-}
-.secondRow-mt{
-  display: flex;
-  flex-direction: row;
-  margin-top: 2px;
-}
 
-#img3{
-  padding-right: 4px;
-}
 
 
 .dropZones {
-display: flex;
-flex-direction: row;
-height: 150px;
-justify-content: space-evenly;
-padding-top: 10px;
-background-color: #212026;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  background-color: #212026;
 }
+
 .dropZone {
 
   background-color: #212026;
@@ -74,30 +64,3 @@ background-color: #212026;
   height: 134px;
 }
 
-
-
-.soundTracks{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  margin-top: 0px;
-}
-
-.firstRow-st{
-  display: flex;
-  flex-direction: row;
-}
-
-.secondRow-st{
-  display: flex;
-  flex-direction: row;
-  margin-top: 2px;
-}
-
-#img6{
-  padding-left: 4px;
-}
-
-#img8{
-  padding-left: 4px;
-}

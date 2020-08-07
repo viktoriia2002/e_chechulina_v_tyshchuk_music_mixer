@@ -2,21 +2,21 @@
 const list_icons = document.querySelectorAll('.icon');
 const dropZones = document.querySelectorAll('.dropZone');
 
-let draggedItem = null;
+let draggedIcon = null;
 
 for (let i = 0; i < list_icons.length; i++) {
 const icon = list_icons[i];
 
 icon.addEventListener('dragstart', function () {
 draggedIcon = icon;
-setTimeout(function () {
-icon.style.display = 'block';	}, 0)
+
+icon.style.display = 'block';	
 });
 
 icon.addEventListener('dragend', function () {
-setTimeout(function () {
-draggedIcon.style.display = 'block';
-draggedIcon = null;}, 0);
+
+draggedIcon.style.position = 'absolute';
+draggedIcon = null;
 })
 
 for (let j = 0; j < dropZones.length; j++ ) {
@@ -24,6 +24,7 @@ const dropZone = dropZones[j];
 
 dropZone.addEventListener('dragover', function (e) {
 e.preventDefault();
+console.log("drag over me!")
 });
 
 dropZone.addEventListener('dragenter', function (e) {
@@ -36,11 +37,12 @@ dropZone.addEventListener('dragleave', function (e) {
 dropZone.addEventListener('drop', function (e) {
 console.log('drop');
 this.append(draggedIcon);
+
+
 });
 }
 }
-
-
+// audio starts here
 
 var button1 = document.getElementById ('button1');
 var turnOn = false;
@@ -62,6 +64,8 @@ button1.onpause = function (){
   turnOn = false;
 };
 
+
+
 var button2 = document.getElementById ('button2');
 var turnOn2 = false;
 button2.loop = true;
@@ -81,6 +85,8 @@ button2.onplaying = function (){
 button2.onpause = function (){
 turnOn2 = false;
 };
+
+
 
 var button3 = document.getElementById ('button3');
 var turnOn3 = false;
@@ -102,6 +108,9 @@ button3.onpause = function (){
   turnOn3 = false;
 };
 
+
+
+
 var button4 = document.getElementById ('button4');
 var turnOn4 = false;
 button4.loop = true;
@@ -121,6 +130,8 @@ button4.onplaying = function (){
 button4.onpause = function (){
   turnOn4 = false;
 };
+
+
 
 
 
@@ -187,6 +198,8 @@ button7.onplaying = function (){
 button7.onpause = function (){
   turnOn7 = false;
 };
+
+
 
 
 var button8 = document.getElementById ('button8');
