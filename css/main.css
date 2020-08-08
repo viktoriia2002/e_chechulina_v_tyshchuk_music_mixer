@@ -1,149 +1,116 @@
-body{
-  width:1230px;
-  height: auto;
+body {
+  width: 881px;
   margin: 0 auto;
   padding: 0;
-
+  background-color:#343B48;
+}
+h1 {
+  font-size: 20px;
 }
 
-.hidden{
+
+.hidden {
   display: none;
 }
-
-.mainHeader{
-  display: flex;
-  flex-direction: row;
-}
-.speedLeft{
-  width: 90px;
-  height:120px;
-  background-color: #2F343B;
-}
-.wave{
-  width: 1030px;
-  height: 120px;
-  background-color: #2F343B;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.speedRight{
-  width: 90px;
-  height:120px;
-  background-color: #2F343B;
-}
-
-.main{
-  display: flex;
-  flex-direction: row;
-  margin-top:10px;
-}
-
-.left{
-  display: flex;
-  flex-direction: column;
-}
-
-.switch1{
-  width: 90px;
-  height: 50px;
-  background-color: #2F343B;
-}
-
-.switch2{
-  width: 90px;
-  height: 50px;
-  background-color: #2F343B;
+.container {
   margin-top: 10px;
+  background: url(../images/background.svg);
+  width: 881px;
+  height: 486px;
 }
 
-.volume{
-  width: 90px;
-  height: 290px;
-  background-color: #2F343B;
-  margin-top: 10px;
 
-}
-
-.trackLeft{
-  display: flex;
-  flex-direction: column;
-}
-
-.top{
+.musicPlace{
   display: flex;
   flex-direction: row;
-}
-
-.topLeft, .topRight{
-  width: 200px;
-  height: 200px;
-  background-color: #2F343B;
-
-}
-
-.topRight, .bottomRight{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.topLeft, .bottomLeft{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.bottom{
-  display: flex;
-  flex-direction: row;
-}
-
-.bottomLeft, .bottomRight{
-  width: 200px;
-  height: 200px;
-  background-color: #2F343B;
-  margin-top: 10px;
-
-}
-
-.musicArea{
-  margin-top: 25px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 57px;
 }
 
 .reset{
-  width: 170px;
-  height: 55px;
-  background-color: #2F343B;
+  margin-top: -245px;
+  margin-left: 375px;
+}
+
+.imagesContainer{
+  display: grid;
+  grid-template-rows: 1fr  1fr 1fr 1fr ;
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 8px;
+  margin-left: 90px;
+
+}
+
+
+.dropZones {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  background-color: #212026;
+}
+
+.dropZone {
+
+  background-color: #212026;
+  border-color: #cecece;
+  border-style: dashed;
+  border-width: 1px;
+  width: 138px;
+  height: 134px;
+}
+.spinner {
+
+  margin-left: 400px;
+  width: 100px;
+  height: 90px;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #ef9237;
+  height: 100%;
+  width: 7px;
+  display: inline-block;
+
+
+  animation: sk-stretchdelay 1.2s infinite;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
   }
-  .play, .pause{
-  width: 170px;
-  height: 55px;
-  background-color: #2F343B;
-  margin-bottom: 10px;
-}
-
-.musicTracker{
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  background-color: #2F343B;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.trackRight{
-  display: flex;
-  flex-direction: column;
-}
-
-.right{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer{
-  width: 1230px;
-  height: 120px;
-  background-color: #2F343B;
-  margin-top: 10px;
 }

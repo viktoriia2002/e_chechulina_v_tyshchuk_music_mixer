@@ -1,124 +1,120 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     <title>Party Mixer</title>
   </head>
   <body>
 <div class="container">
-  <header class="mainHeader">
-    <section class="speedLeft">
-      <h2 class="hidden">SpeedLeft</h2>
-    </section>
-    <section class="wave">
-      <h2 class="hidden">Wave</h2>
-    </section>
-    <section class="speedRight">
-      <h2 class="hidden">SpeedRight</h2>
-    </section>
-  </header>
+  <div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>
+<div class="musicPlace">
+<div class="imagesContainer">
 
-<div class="main">
-  <div class="left">
+                      <div class="music" draggable="true">
 
-    <section class="switch1">
-      <h2 class="hidden">switch1</h2>
-    </section>
+                        <audio id="button1"  src="audio/button1.ogg"></audio>
+                        <img id="img1" src="images/orange.svg" alt="button1"   ondragend="buttonOne()" onclick="buttonOne()"  class="icon">
 
-    <section class="switch2">
-      <h2 class="hidden">switch2</h2>
-    </section>
+                      </div>
 
-    <section class="volume">
-        <h2 class="hidden">volume</h2>
-      </section>
-  </div>
+                      <div id="green" class="music">
 
-<div class="trackLeft">
-    <div class="top">
-      <section class="topLeft">
-          <h2 class="hidden">topLeft</h2>
-      </section>
+                        <audio id="button2" src="audio/button2.ogg"></audio>
+                        <img src="images/green.svg" alt="ggg"  ondragend="buttonTwo()" onclick="buttonTwo()" draggable="true" class="icon">
 
-        <section class="topRight">
-            <h2 class="hidden">topRight</h2>
-        </section>
+                     </div>
+
+
+                    <div id="pink" class="music">
+
+                      <audio id="button3" src="audio/button3.ogg"></audio>
+                      <img id="img3" src="images/pink.svg" alt="button3"  ondragend="buttonThree()" onclick="buttonThree()" draggable="true" class="icon">
+
+                    </div>
+
+                    <div id="lightBlue"  class="music">
+
+                      <audio id ="button4" src="audio/button4.ogg"></audio>
+                      <img id="img4" src="images/lightBlue.svg" alt="button4"  ondragend="buttonFour()" onclick="buttonFour()"  draggable="true" class="icon">
+
+                    </div>
+
+
+              <div id="blue" class="music">
+
+                  <audio id="button8" src="audio/button8.ogg"></audio>
+                  <img id="img8" src="images/blue.svg" alt="button8"  ondragend="buttonEight()" onclick="buttonEight()"  draggable="true" class="icon">
+
+              </div>
+
+
+
+
+            <div id="yellow"  class="music">
+
+                <audio id="button6" src="audio/button6.ogg"></audio>
+                <img id="img6" src="images/yellow.svg" alt="button6"  ondragend="buttonSix()" onclick="buttonSix()"  draggable="true" class="icon">
+
+            </div>
+
+
+
+              <div id="purple" class="music">
+
+                  <audio id="button7" src="audio/button7.ogg"></audio>
+                  <img src="images/purple.svg" alt="button7"  ondragend="buttonSeven()" onclick="buttonSeven()"  draggable="true" class="icon">
+
+              </div>
+              <div id="red"  class="music">
+
+                <audio id="button5" src="audio/button5.ogg"></audio>
+                <img src="images/red.svg" alt="button5"  ondragend="buttonFive()" onclick="buttonFive()"  draggable="true" class="icon">
+
+            </div>
+
+
     </div>
-    <div class="bottom">
-      <section class="bottomLeft">
-          <h2 class="hidden">bottomLeft</h2>
-      </section>
 
-        <section class="bottomRight">
-            <h2 class="hidden">bottomRight</h2>
-        </section>
-      </div>
-  </div>
-
-<div class="musicArea">
-  <section class="reset">
-      <h2 class="hidden">reset</h2>
-  </section>
-
-  <section class="musicTracker">
-      <h2 class="hidden">musicTracker</h2>
-  </section>
-
-  <section class="play">
-      <h2 class="hidden">play</h2>
-  </section>
-
-  <section class="pause">
-      <h2 class="hidden">pause</h2>
-  </section>
-</div>
-
-<div class="trackRight">
-    <div class="top">
-      <section class="topLeft">
-          <h2 class="hidden">topLeft</h2>
-      </section>
-
-        <section class="topRight">
-            <h2 class="hidden">topRight</h2>
-        </section>
-    </div>
-    <div class="bottom">
-      <section class="bottomLeft">
-          <h2 class="hidden">bottomLeft</h2>
-      </section>
-
-        <section class="bottomRight">
-            <h2 class="hidden">bottomRight</h2>
-        </section>
-      </div>
-  </div>
-
-  <div class="right">
-
-    <section class="switch1">
-      <h2 class="hidden">switch1</h2>
-    </section>
-
-    <section class="switch2">
-      <h2 class="hidden">switch2</h2>
-    </section>
-
-    <section class="volume">
-        <h2 class="hidden">volume</h2>
-      </section>
-  </div>
-
-
-</div>
-
-<div class="footer">
 </div>
 
 </div>
 
-<script src="js/main.js"></script>
 
-  </body>
+
+<div class="dropZones">
+
+      <section class="dropZone" id="zone1">
+        <h1 class="hidden">Zone1</h1>
+      </section>
+
+      <section class="dropZone" id="zone2">
+        <h2 class="hidden">Zone2</h2>
+      </section>
+
+      <section class="dropZone" id="zone3">
+        <h2 class="hidden">Zone3</h2>
+      </section>
+
+      <section class="dropZone" id="zone4">
+        <h2 class="hidden">Zone4</h2>
+      </section>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
 </html>

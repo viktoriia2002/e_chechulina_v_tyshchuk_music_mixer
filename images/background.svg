@@ -1,0 +1,292 @@
+<svg id="bckgrd_player" data-name="bckgrd player" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 881 486">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #212026;
+      }
+
+      .cls-2 {
+        fill: #0c090c;
+      }
+
+      .cls-3, .cls-30, .cls-4 {
+        font-size: 9px;
+      }
+
+      .cls-10, .cls-3, .cls-4 {
+        fill: #ccc;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: Avenir-Roman, Avenir;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.09em;
+      }
+
+      .cls-23, .cls-26, .cls-28, .cls-29, .cls-31, .cls-5, .cls-8 {
+        fill: none;
+      }
+
+      .cls-5, .cls-8 {
+        stroke: #ccc;
+      }
+
+      .cls-15, .cls-17, .cls-18, .cls-20, .cls-21, .cls-23, .cls-24, .cls-26, .cls-28, .cls-31, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 1.98 1.98;
+      }
+
+      .cls-17, .cls-18, .cls-6, .cls-7 {
+        stroke: #020002;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-9 {
+        fill: #13141d;
+      }
+
+      .cls-15, .cls-20, .cls-9 {
+        stroke: #000;
+      }
+
+      .cls-10, .cls-16, .cls-22 {
+        font-size: 10px;
+      }
+
+      .cls-10 {
+        font-family: AvenirNext-DemiBold, Avenir Next;
+        font-weight: 300;
+        letter-spacing: 0.04em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0.05em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-13, .cls-16, .cls-22 {
+        fill: #f19227;
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-16, .cls-22, .cls-30, .cls-32 {
+        font-family: Avenir-Medium, Avenir;
+        font-weight: 500;
+      }
+
+      .cls-16 {
+        letter-spacing: 0.17em;
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-21, .cls-23, .cls-24 {
+        stroke: #f19227;
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-22 {
+        letter-spacing: 0.08em;
+      }
+
+      .cls-23, .cls-28 {
+        stroke-width: 2px;
+      }
+
+      .cls-24 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-25 {
+        fill: #37363a;
+      }
+
+      .cls-26 {
+        stroke: #505051;
+        stroke-width: 1.6px;
+      }
+
+      .cls-27 {
+        fill: #19181d;
+      }
+
+      .cls-28 {
+        stroke: url(#linear-gradient-11);
+      }
+
+      .cls-29 {
+        stroke: #010004;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-30 {
+        fill: #c1c1c1;
+        letter-spacing: 0.08em;
+      }
+
+      .cls-31 {
+        stroke: #cecece;
+        stroke-dasharray: 3 3;
+      }
+
+      .cls-32 {
+        font-size: 15px;
+        fill: #f49828;
+        letter-spacing: 0.08em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="40.67" y1="141.72" x2="40.67" y2="175.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b4b4b"/>
+      <stop offset="0.02" stop-color="#3c3c3f"/>
+      <stop offset="0.05" stop-color="#2b2a30"/>
+      <stop offset="0.07" stop-color="#25242b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="40.67" y1="101.43" x2="40.67" y2="134.8" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="40.9" y1="246.18" x2="40.9" y2="267.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0"/>
+      <stop offset="0.11" stop-color="#4b4b4b"/>
+      <stop offset="0.12" stop-color="#353535"/>
+      <stop offset="0.14" stop-color="#181818"/>
+      <stop offset="0.16" stop-color="#060606"/>
+      <stop offset="0.17"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="45.14" y1="430.87" x2="45.14" y2="484.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4b4b4b"/>
+      <stop offset="0.02" stop-color="#313033"/>
+      <stop offset="0.04" stop-color="#1f1e23"/>
+      <stop offset="0.05" stop-color="#19181d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="839.08" y1="144.51" x2="839.08" y2="177.88" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="839.08" y1="104.22" x2="839.08" y2="137.58" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="839.31" y1="248.97" x2="839.31" y2="270.06" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="837.77" y1="430.4" x2="837.77" y2="483.8" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-9" x1="246.92" y1="435.64" x2="246.92" y2="478.69" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-10" x1="623.01" y1="436.04" x2="623.01" y2="479.09" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-11" x1="433.7" y1="457.57" x2="435.7" y2="457.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0.18" stop-color="#4b4b4b"/>
+      <stop offset="0.24" stop-color="#707070"/>
+      <stop offset="0.32" stop-color="#999"/>
+      <stop offset="0.39" stop-color="#b6b6b6"/>
+      <stop offset="0.45" stop-color="#c8c8c8"/>
+      <stop offset="0.5" stop-color="#cecece"/>
+      <stop offset="0.82" stop-color="#4b4b4b"/>
+    </linearGradient>
+  </defs>
+  <rect id="bckgrd" class="cls-1" width="881" height="486"/>
+  <rect id="music_wave" data-name="music wave" class="cls-2" x="73.5" width="734" height="96"/>
+  <g id="left_side" data-name="left side">
+    <text class="cls-3" transform="translate(26.45 74.19)">PITCH</text>
+    <text class="cls-4" transform="translate(28.5 44.35)">BPM</text>
+    <g id="dash_stroke" data-name="dash stroke">
+      <rect class="cls-5" x="14.34" y="52.65" width="50.65" height="36.52" rx="2.52"/>
+    </g>
+    <rect id="stroke1" class="cls-6" x="14.34" y="141.72" width="52.66" height="33.37" rx="4.44"/>
+    <rect id="stroke1-2" data-name="stroke1" class="cls-7" x="14.34" y="101.43" width="52.66" height="33.37" rx="4.44"/>
+    <polyline id="arrow_right" data-name="arrow right" class="cls-8" points="38.98 114.48 42.36 118.55 38.98 122.61"/>
+    <polyline id="arrow_left" data-name="arrow left" class="cls-8" points="42.73 155 39.35 159.06 42.73 163.13"/>
+    <rect id="vol1" class="cls-9" x="14.34" y="182.09" width="52.66" height="198.34" rx="3.87"/>
+    <text class="cls-10" transform="translate(29.5 215.91)">V<tspan class="cls-11" x="6.96" y="0">O</tspan><tspan class="cls-12" x="16" y="0">L</tspan></text>
+    <rect class="cls-13" x="39.24" y="266.7" width="2.84" height="97.24" rx="0.28"/>
+    <rect class="cls-14" x="21.73" y="246.18" width="38.33" height="21.09" rx="1.33"/>
+    <rect id="cue" class="cls-15" x="11.49" y="430.87" width="67.3" height="53.4" rx="4"/>
+    <text class="cls-16" transform="translate(33.05 461.7)">CUE</text>
+  </g>
+  <g id="right_side" data-name="right side">
+    <text class="cls-3" transform="translate(826.47 76.66)">PITCH</text>
+    <text class="cls-4" transform="translate(828.92 47.14)">BPM</text>
+    <g id="dash_stroke-2" data-name="dash stroke">
+      <rect class="cls-5" x="814.75" y="55.44" width="50.65" height="36.52" rx="2.52"/>
+    </g>
+    <rect id="stroke1-3" data-name="stroke1" class="cls-17" x="812.75" y="144.51" width="52.66" height="33.37" rx="4.44"/>
+    <rect id="stroke1-4" data-name="stroke1" class="cls-18" x="812.75" y="104.22" width="52.66" height="33.37" rx="4.44"/>
+    <polyline id="arrow_right-2" data-name="arrow right" class="cls-8" points="839.4 117.27 842.78 121.33 839.4 125.4"/>
+    <polyline id="arrow_left-2" data-name="arrow left" class="cls-8" points="841.15 157.79 837.77 161.85 841.15 165.92"/>
+    <rect id="vol1-2" data-name="vol1" class="cls-9" x="812.75" y="184.88" width="52.66" height="198.34" rx="3.87"/>
+    <text class="cls-10" transform="translate(827.91 218.7)">V<tspan class="cls-11" x="6.96" y="0">O</tspan><tspan class="cls-12" x="16" y="0">L</tspan></text>
+    <rect class="cls-13" x="837.66" y="269.49" width="2.84" height="97.24" rx="0.28"/>
+    <rect class="cls-19" x="820.15" y="248.97" width="38.33" height="21.09" rx="1.33"/>
+    <rect id="cue-2" data-name="cue" class="cls-20" x="804.12" y="430.4" width="67.3" height="53.4" rx="4"/>
+  </g>
+  <text class="cls-16" transform="translate(826.47 463.69)">CUE</text>
+  <g id="sampler_button" data-name="sampler button">
+    <rect class="cls-21" x="209.25" y="435.64" width="75.35" height="43.05" rx="2.67"/>
+    <text class="cls-22" transform="translate(221 457.17)">SAMPLER</text>
+    <line class="cls-23" x1="221" y1="466.33" x2="270.81" y2="466.37"/>
+  </g>
+  <g id="sampler_button1" data-name="sampler button1">
+    <rect class="cls-24" x="585.34" y="436.04" width="75.35" height="43.05" rx="2.67"/>
+    <text class="cls-22" transform="translate(597.09 457.57)">SAMPLER</text>
+    <line class="cls-23" x1="597.09" y1="466.73" x2="646.9" y2="466.77"/>
+  </g>
+  <polygon id="triangle2" class="cls-25" points="324.62 457.56 332.35 452.5 332.35 461.7 324.62 457.56"/>
+  <polygon id="triangle1" class="cls-25" points="544.7 458.03 536.97 452.96 536.97 462.17 544.7 458.03"/>
+  <g id="voicer">
+    <line class="cls-26" x1="363.63" y1="433.52" x2="363.82" y2="480.79"/>
+    <line class="cls-26" x1="377.66" y1="439.19" x2="377.82" y2="476.89"/>
+    <line class="cls-26" x1="392.11" y1="444.08" x2="392.22" y2="471.05"/>
+    <line class="cls-26" x1="405.81" y1="448.37" x2="405.89" y2="466.46"/>
+    <line class="cls-26" x1="420.29" y1="451.86" x2="420.34" y2="462.72"/>
+    <line class="cls-26" x1="505.55" y1="433.53" x2="505.35" y2="480.8"/>
+    <line class="cls-26" x1="491.52" y1="439.2" x2="491.36" y2="476.9"/>
+    <line class="cls-26" x1="477.07" y1="444.09" x2="476.96" y2="471.06"/>
+    <line class="cls-26" x1="463.36" y1="448.38" x2="463.29" y2="466.47"/>
+    <line class="cls-26" x1="448.89" y1="451.87" x2="448.84" y2="462.73"/>
+    <rect class="cls-27" x="423.12" y="429.42" width="23.16" height="56.29" rx="2.2"/>
+    <line class="cls-28" x1="434.7" y1="429.42" x2="434.7" y2="485.71"/>
+    <line class="cls-29" x1="355.81" y1="457.17" x2="511.7" y2="457.57"/>
+  </g>
+  <g id="off_button" data-name="off button">
+    <rect x="18.48" y="392.17" width="45.31" height="23.38" rx="1.98"/>
+    <text class="cls-30" transform="translate(39.44 406.59)">OFF</text>
+  </g>
+  <g id="off_button-2" data-name="off button">
+    <rect x="817.27" y="392.17" width="45.31" height="23.38" rx="1.98"/>
+    <text class="cls-30" transform="translate(838.23 406.59)">OFF</text>
+  </g>
+  <g id="dash_border1" data-name="dash border1">
+    <rect class="cls-31" x="142.16" y="97.87" width="591.4" height="290.63" rx="3.36"/>
+  </g>
+  <text class="cls-32" transform="translate(17.6 33.72)">128.0</text>
+  <text class="cls-32" transform="translate(817.36 35.79)">128.0</text>
+</svg>
